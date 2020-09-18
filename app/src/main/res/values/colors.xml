@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#DF1707</color>
+    <color name="gray">#EDEDED</color>
+    <color name="list_background">#ffff</color>
+    <color name="contact_background">#EDEDED</color>
+        <color name="title">#EDEDED</color>
+        <color name="titleText">#181818</color>
+        <color name="popupBackground">#4C4C4C</color>
+        <color name="popmeuText">#FFFFFF</color>
+        <color name="popmenuDivier">#5E5E5E</color>
+        <color name="loginButtonBackgroundFouse">#07C160</color>
+        <color name="loginButtonBackgroundNotFouse">#B4EDCD</color>
+        <color name="loginButtonText">#CAF2DD</color>
+        <color name="loginButtonTextFouse">#FFFFFF</color>
+        <color name="loginText">#353535</color>
+        <color name="massageLogin">#5A6A8B</color>
+        <color name="login_dvier">#BEBEBE</color>
+        <color name="login_dvier_leave">#D8D8D8</color>
+        <color name="input_dvier_focus">#1BB879</color>
+        <color name="input_dvier">#D8D8D8</color>
+        <color name="plus_dvier">#5E5E5E</color>
+        <color name="textColorHint">#DDDDDD</color>
+        <color name="bottom_text_press">#1B940A</color>
+        <color name="bottom_text_normal">#181818</color>
+        <color name="page4">#EDEDED</color>
+        <color name="wechat_num">#7F7F7F</color>
+        <color name="bottom">#F7F7F7</color>
+        <color name="title_press">#BEBEBE</color>
+        <color name="chat_text">#999999</color>
+        <color name="chat_divier">#DEDEDE</color>
+        <color name="chat_time">#B3B3B3</color>
+        <color name="circle_name">#FFFFFF</color>
+        <color name="circle_text_color">#586B95</color>
+        <color name="circle_time_color">#808080</color>
+        <color name="circle_feed_color">#2E2E2E</color>
+        <color name="pay_button_background">#3BAC6A</color>
+        <color name="purse">#FFFFFF</color>
+        <color name="button_press">#C6C6C6</color>
+        <color name="money">#9DD4B4</color>
+        <color name="pat_text_color">#717076</color>
+        <color name="pay_background">#F7F7F7</color>
+        <color name="grid_background">#F2F2F2</color>
+        <color name="booking_backgound">#F0EFF4</color>
+        <color name="gongqingtuan_text">#7D7D7D</color>
+        <color name="booking_time">#C7C7C7</color>
+        <color name="green_dot">#07C160</color>
+    </resources>
+
+

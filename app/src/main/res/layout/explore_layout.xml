@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/contact_background" />
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/contact_background" />
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/contact_background" />
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/contact_background" />
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/contact_background" />
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/contact_background" />
+
+            <com.example.mywechat.view.NestedListView
+                android:id="@+id/discover_listview6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/list_background"
+                android:divider="@drawable/discover_divier"
+                android:dividerHeight="0.5dp"></com.example.mywechat.view.NestedListView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/list_background" />
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+    </LinearLayout>
+

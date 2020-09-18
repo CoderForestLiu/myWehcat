@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/title"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/register_return"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/backpay"
+        android:layout_width="17dp"
+        android:layout_height="17dp" />
+    <TextView
+        android:textSize="25sp"
+        android:text="@string/reg_text"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/loginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/loginText"
+            android:layout_marginLeft="30dp"
+            android:text="@string/reg_name"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColorHint="@color/textColorHint"
+            android:background="@null"
+            android:id="@+id/reg_name"
+            android:layout_marginLeft="55dp"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp"
+            android:hint="@string/user_name_hint"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/reg_diver1"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/input_dvier"
+        android:layout_width="320dp"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/loginText"
+            android:layout_marginLeft="30dp"
+            android:text="@string/reg_id"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColorHint="@color/textColorHint"
+            android:background="@null"
+            android:id="@+id/reg_id"
+            android:layout_marginLeft="55dp"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp"
+            android:hint="@string/user_name_hint"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/reg_diver2"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/input_dvier"
+        android:layout_width="320dp"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/loginText"
+            android:layout_marginLeft="30dp"
+            android:text="@string/reg_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColorHint="@color/textColorHint"
+            android:background="@null"
+            android:id="@+id/reg_passwd"
+            android:layout_marginLeft="55dp"
+            android:textCursorDrawable="@drawable/edit_cursor_color"
+            android:textSize="16sp"
+            android:password="true"
+            android:hint="@string/user_passwd_hint"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/reg_diver3"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/input_dvier"
+        android:layout_width="320dp"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="16sp"
+            android:id="@+id/register_button"
+            android:layout_width="321dp"
+            android:layout_height="48dp"
+            android:background="@drawable/login_button_shape"
+            android:text="@string/register"
+            android:textColor="@color/loginButtonText" />
+    </LinearLayout>
+
+</LinearLayout>
+
